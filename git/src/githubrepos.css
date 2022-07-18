@@ -1,0 +1,88 @@
+h1{
+        text-align: center;
+        font-family: Arial, sans-serif;
+        color:rgb(64, 64, 223)
+}
+.navbardiv{
+        display: flex;
+        overflow: auto;
+        flex-direction: row;
+        max-height: 5vw;
+        width:65%;
+        border:2px solid rgb(64, 64, 223);
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1vw;
+        padding:1vw;
+}
+.navbardiv2{
+        display: flex;
+        overflow: auto;
+        flex-direction: row;
+        max-height: 5vw;
+        width:65%;
+        /* //border:2px solid rgb(64, 64, 223); */
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1vw;
+        padding:.5vw;
+}
+.inpfield{
+        height: 2.5vw;
+        width: 25vw;
+        border: 1px solid skyblue;
+        font-size: 1.5vw;
+        font-family:Arial, sans-serif;
+        color: rgb(46, 183, 237);
+}
+.inpfield:focus{
+        outline: 1.5px solid skyblue;
+        
+}
+.srchbtn{
+        background-color: rgb(46, 183, 237);
+        border:none;
+        width:15vw;
+        font-family:Arial, sans-serif;
+        font-size: 1.5vw;
+        color:white;
+        margin-left: auto;
+        margin-right: 0;
+        font-weight: 600;
+}
+.srchbtn0{
+        background-color: rgb(46, 183, 237);
+        border:none;
+        width:8vw;
+        font-family:Arial, sans-serif;
+        font-size: 1.5vw;
+        color:white;
+        margin-left: auto;
+        margin-right: 0;
+        font-weight: 600;
+        height: 2.5vw;
+}
+.srchbtn1{
+        background-color: rgb(46, 183, 237);
+        border:none;
+        width:8vw;
+        font-family:Arial, sans-serif;
+        font-size: 1.5vw;
+        color:white;
+        margin-left: 0;
+        margin-right: auto;
+        font-weight: 600;
+        height: 2.5vw;
+}
+.srchbtn2{
+        background-color: rgb(46, 183, 237);
+        border:none;
+        width:5vw;
+        font-family:Arial, sans-serif;
+        font-size: 1.5vw;
+        color:white;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 600;
+        height: 2.5vw;
+}
